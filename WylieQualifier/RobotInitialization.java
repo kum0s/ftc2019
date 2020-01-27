@@ -131,7 +131,13 @@ public abstract class RobotInitialization extends LinearOpMode {
      * Once you've obtained a license key, copy the string from the Vuforia web site
      * and paste it in to your code on the next line, between the double quotes.
      */
-    private static final String VUFORIA_KEY = "Afcs+zn/////AAAAGR09crC9yUhjlzB3l5aWqoqFpQF6d25RQchdU+kLgbg3ogYJxJ9Meutxrqr/w8m+WnE3PFjXoKhl0/lB4fhAOH6KYRKEj1L8e7BLDsgLVfhAXBibh3140QCKVgK+XF9tZeJWtVPj5svRdXimk5zsE5Dacs4YLOrH+coqabK/YUCpH2AUxu5lWwiS5MPWjTYAsCkKRt+a1wOQxMA3M/J23O970JhNxcqQup96nAk9IJlqybM2dHbW4/TZf1+TvmMZnnR3WZu9XdXz3c7zPEGVyELEz5VbXMffkLXAqC4p7y3+8FCvEnZtWvV7lAr/l7gW+qPNYebnD1sSomPzUoRpHMJlOkxT7uuLgPRj8dDgNCC7";
+    //Vuforia key created for FTC 2017-2018
+    //private static final String VUFORIA_KEY = "Afcs+zn/////AAAAGR09crC9yUhjlzB3l5aWqoqFpQF6d25RQchdU+kLgbg3ogYJxJ9Meutxrqr/w8m+WnE3PFjXoKhl0/lB4fhAOH6KYRKEj1L8e7BLDsgLVfhAXBibh3140QCKVgK+XF9tZeJWtVPj5svRdXimk5zsE5Dacs4YLOrH+coqabK/YUCpH2AUxu5lWwiS5MPWjTYAsCkKRt+a1wOQxMA3M/J23O970JhNxcqQup96nAk9IJlqybM2dHbW4/TZf1+TvmMZnnR3WZu9XdXz3c7zPEGVyELEz5VbXMffkLXAqC4p7y3+8FCvEnZtWvV7lAr/l7gW+qPNYebnD1sSomPzUoRpHMJlOkxT7uuLgPRj8dDgNCC7";
+
+    //Vuforia key created in previous year stopped working, so had to create a new one
+    //Hopefully this will work for future years
+    //Vuforia key created for FTC 2019-2020
+    private static final String VUFORIA_KEY = "AfsqPBf/////AAABmS1cRRbsikQdofmhBsAL/lx6fA5WXDqaPE6A4clPLAPp4MMzRvl0F64xhOba/mj+WGHtIkhL0tdNIbC6cX8fFk+2lKMLHLji2+5BLUKoGMupvYorF243iu+LnVMlvZcTo3cGMQWn37zRLUjS5UCkvrR0Db8B3q/tGr5EkvvRzwvDcC+8kT7zR0/RqnyAOIy5t+tHjpObnohxRo1uvdytEY15Y0DuZ4SxL4hJFUWhsbx0BYFTnKcKewCE3dfQ54jHTptFlQfQXTq147uWHOaqlu2Iqz48e55S3PguVyC0qYwoLsz1Zvv/XnZgJytuj7IJNiWWawCFps95ZrCym3Nyg7vOroTu0t5h88p/oOXVOr2v";
 
     /**
      * {@link #vuforia} is the variable we will use to store our instance of the Vuforia
